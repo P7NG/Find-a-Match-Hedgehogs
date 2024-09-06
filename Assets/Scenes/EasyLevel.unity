@@ -336,15 +336,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.108412996, g: 0.40904236, b: 0.13088846, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.7386513, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 497600754102043572, guid: 15ba6b3b5206c214cbfd6b5e56f34cce, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1067,6 +1067,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 645059152}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -1166,7 +1168,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: de47b512c1fc5ee43b31cfd13d14c490, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c2db5039599ec3844ac5a11df5fd3a3e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1737,6 +1739,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 1042651343}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -1867,6 +1871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 1056817842}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -2154,7 +2160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0021362305, y: -98}
+  m_AnchoredPosition: {x: 0.0021972656, y: -98}
   m_SizeDelta: {x: 0.018554688, y: -272.70532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1252460505
@@ -2273,15 +2279,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3846565, g: 1, b: 0.4233703, a: 1}
+  m_Color: {r: 0.54574585, g: 0.54574585, b: 0.54574585, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 497600754102043572, guid: 15ba6b3b5206c214cbfd6b5e56f34cce, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2351,10 +2357,10 @@ RectTransform:
   - {fileID: 1290481775}
   m_Father: {fileID: 1020298524}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0021667, y: -7.23}
-  m_SizeDelta: {x: 1820.4, y: 952.47}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.00048828125, y: 0.00024414062}
+  m_SizeDelta: {x: 0, y: 0.00048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488651076
 MonoBehaviour:
@@ -2407,11 +2413,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sprites:
-  - {fileID: 21300000, guid: 1bbe011726ba57844b502d91804c8c62, type: 3}
-  - {fileID: 21300000, guid: 4d64c0b1d62f6654b8872becac309252, type: 3}
-  - {fileID: 21300000, guid: ebbfb9bfa3142954e9bfed84f427955f, type: 3}
-  - {fileID: 21300000, guid: 8f866f24094137c40ab87d4ef97cba4c, type: 3}
-  - {fileID: 21300000, guid: 49c6d6fa501d296438f80d58e0a45286, type: 3}
+  - {fileID: 21300000, guid: bc9427a0b8800954f8c01fff6ae084f5, type: 3}
+  - {fileID: 21300000, guid: 3e114fc1dbdc268438d8fc0d017fbe8f, type: 3}
+  - {fileID: 21300000, guid: c2db5039599ec3844ac5a11df5fd3a3e, type: 3}
+  - {fileID: 21300000, guid: 0aa08ee36b8756f46a4d7bc65b0f44f1, type: 3}
+  - {fileID: 21300000, guid: 9b631a65eeb93cf4785a0fb17ce8b935, type: 3}
   Indexes: 
   OriginalCards: []
   AllReadyCards: []
@@ -2762,6 +2768,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 2031233165}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 

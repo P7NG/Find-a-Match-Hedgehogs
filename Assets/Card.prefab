@@ -54,7 +54,7 @@ MonoBehaviour:
   CardIndex: 0
   Face: {fileID: 0}
   _gameScript: {fileID: 0}
-  _cardBack: {fileID: 0}
+  _cardBack: {fileID: 21300000, guid: 1782e82f65898e645b9b5dff53b3d01e, type: 3}
   _foundEvent:
     m_PersistentCalls:
       m_Calls:
