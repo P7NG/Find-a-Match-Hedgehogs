@@ -1,5 +1,5 @@
 {
-  "idSave": 54,
+  "idSave": 55,
   "isFirstSession": false,
   "language": "ru",
   "promptDone": false,
@@ -10,7 +10,7 @@
     true,
     false
   ],
-  "RecordEasy": 9,
+  "RecordEasy": 7,
   "RecordNormal": 29,
   "RecordHard": 99999
 }
