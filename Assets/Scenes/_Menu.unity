@@ -470,7 +470,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0430\u0439\u0434\u0438 \u043F\u0430\u0440\u0443: \u0415\u0436\u0438"
+  m_Text: "\u041D\u0430\u0439\u0434\u0438 \u043F\u0430\u0440\u0443: \u0411\u0440\u0430\u0432\u043B\u0435\u0440\u044B"
 --- !u!222 &123567918
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -496,9 +496,9 @@ MonoBehaviour:
   textLComponent: {fileID: 123567917}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: "\u041D\u0430\u0439\u0434\u0438 \u043A\u043E\u0442\u0443 \u043F\u0430\u0440\u0443"
-  ru: "\u041D\u0430\u0439\u0434\u0438 \u043F\u0430\u0440\u0443: \u0435\u0436\u0438"
-  en: 'Find a pair: hedgehogs'
-  tr: "Bir \xE7ift bulun: kirpi"
+  ru: "\u041D\u0430\u0439\u0434\u0438 \u043F\u0430\u0440\u0443: \u0411\u0440\u0430\u0432\u043B\u0435\u0440\u044B"
+  en: 'Find a pair: Brawlers'
+  tr: "Bir \xE7ift bulun: Kavgac\u0131lar"
   az: 
   be: 
   he: 
@@ -2137,7 +2137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -238.79999, y: 108}
+  m_AnchoredPosition: {x: -238.79996, y: 108}
   m_SizeDelta: {x: -777.61, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &911751479
