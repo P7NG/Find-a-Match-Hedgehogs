@@ -24,6 +24,7 @@ public class MainMenu : MonoBehaviour
         {
             PlayerPrefs.SetFloat("Volume", 0.5f);
         }
+        YandexGame.GameReadyAPI();
     }
 
     public void StartLevel(int id)

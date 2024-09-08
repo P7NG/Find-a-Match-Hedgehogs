@@ -34,6 +34,8 @@ namespace YG
         public UnityEvent PromptFail;
         public UnityEvent ReviewDo;
 
+        public float timer;
+
         #region Data Fields
         public static bool auth { get => _auth; }
         public static bool SDKEnabled { get => _SDKEnabled; }
@@ -214,6 +216,11 @@ namespace YG
         #region Fullscren Ad Show
         [DllImport("__Internal")]
         private static extern void FullAdShow();
+
+        public void OpenMenu()
+        {
+            SceneManager.LoadScene(0);
+        }
 
         public void _FullscreenShow()
         {
@@ -728,6 +735,7 @@ namespace YG
         {
             // Таймер для обработки показа Fillscreen рекламы
             timerShowAd += Time.unscaledDeltaTime;
+            timer = timerShowAd;
 
             // Таймер для облачных сохранений
 #if !UNITY_EDITOR

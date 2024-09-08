@@ -13,6 +13,7 @@ public class GameBehaviour : MonoBehaviour
     public List<Card> AllReadyCards = new List<Card>();
     public List<Card> AllStartCards = new List<Card>();
     public bool IsActive = true;
+    public YandexGame yandexGame;
     [SerializeField] private int _cardCount;
     [SerializeField] private float _waitTime;
     [SerializeField] private GameObject _lastCard;
@@ -138,6 +139,16 @@ public class GameBehaviour : MonoBehaviour
 
     public void Exit()
     {
-        SceneManager.LoadScene("_Menu");
+        if (yandexGame.timer >= yandexGame.infoYG.fullscreenAdInterval)
+        {
+            Debug.Log("Open");
+            YandexGame.FullscreenShow();
+            
+        }
+        else
+        {
+            Debug.Log("Not open");
+            SceneManager.LoadScene(0);
+        }
     }
 }
